@@ -9,12 +9,12 @@ void InputData() {
     cin >> Lebar;
     }
 
-    float HitungLuas() {
+    float Hituns() {
         return panjang * Lebar;
     }
 
     void OutputData() {
-        cout << "Luas persegi panjang: " << HitungLuas() << endl;
+        cout << "Luas persegi panjang: " << Hituns() << endl;
     }
 
     int main() {
